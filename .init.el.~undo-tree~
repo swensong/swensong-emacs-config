@@ -1,0 +1,51 @@
+"daea66781cbbbc3cd6e0a80996c74762d03b00ab"
+#s(undo-tree [nil ([nil ([nil ([nil ([nil ([nil ([nil ([nil ([nil ([nil ([nil ([nil (#1=[nil ([nil nil ((9779 . 10018) ("(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )" . -9779) (9776 . 9778) (#("
+" 0 1 (fontified nil)) . -9776) (9663 . 9777) (#(" " 0 1 (fontified nil)) . 9663) (9390 . 9664) ("(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(package-selected-packages
+   '(use-package-hydra yasnippet-snippets which-key yasnippet cdlatex company use-package evil auctex)))" . -9390) (undo-tree-id0 . 105) 6727) ((9390 . 9768) (#("(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(package-selected-packages " 245 248 (fontified nil) 248 273 (fontified nil) 273 274 (fontified nil)) . 9390) (9663 . 9664) (#("
+   '(undo-tree use-package-hydra yasnippet-snippets which-key yasnippet cdlatex company use-package evil auctex)
+" 1 4 (fontified nil) 4 113 (fontified nil) 113 114 (fontified nil)) . 9663) (9776 . 9777) ("))" . 9776) (9779 . 10018) ("(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )" . 9779) (t . 0)) (25536 20391 446001 0) 0 nil]) ((nil rear-nonsticky nil 6726 . 6727) (nil fontified nil 6307 . 6308) (nil fontified nil 6308 . 6319) (nil fontified nil 6319 . 6320) (nil fontified nil 6320 . 6329) (nil fontified nil 6329 . 6332) (nil fontified nil 6332 . 6339) (nil fontified nil 6339 . 6344) (nil fontified nil 6344 . 6349) (nil fontified nil 6349 . 6376) (nil fontified nil 6376 . 6382) (nil fontified nil 6382 . 6391) (nil fontified nil 6391 . 6396) (nil fontified nil 6396 . 6398) (nil fontified nil 6398 . 6409) (nil fontified nil 6409 . 6436) (nil fontified nil 6436 . 6442) (nil fontified nil 6442 . 6461) (nil fontified nil 6461 . 6466) (nil fontified nil 6466 . 6474) (nil fontified nil 6474 . 6522) (nil fontified nil 6522 . 6526) (nil fontified nil 6526 . 6529) (nil fontified nil 6529 . 6551) (nil fontified nil 6551 . 6554) (nil fontified nil 6554 . 6576) (nil fontified nil 6576 . 6579) (nil fontified nil 6579 . 6609) (nil fontified nil 6609 . 6612) (nil fontified nil 6612 . 6642) (nil fontified nil 6642 . 6645) (nil fontified nil 6645 . 6668) (nil fontified nil 6668 . 6679) (nil fontified nil 6679 . 6680) (nil fontified nil 6680 . 6686) (nil fontified nil 6686 . 6693) (6307 . 6727)) ((#("(use-package undo-tree
+  :ensure t
+  :init (global-undo-tree-mode)
+  :after hydra
+  :bind (\"C-x C-h u\" . hydra-undo-tree/body)
+  :hydra (hydra-undo-tree (:hint nil)
+  \"
+  _p_: undo  _n_: redo _s_: save _l_: load   \"
+  (\"p\"   undo-tree-undo)
+  (\"n\"   undo-tree-redo)
+  (\"s\"   undo-tree-save-history)
+  (\"l\"   undo-tree-load-history)
+  (\"u\"   undo-tree-visualize \"visualize\" :color blue)
+  (\"q\"   nil \"quit\" :color blue)))" 0 1 (fontified nil) 1 12 (fontified nil face font-lock-keyword-face) 12 13 (fontified nil) 13 22 (fontified nil face font-lock-constant-face) 22 25 (fontified nil) 25 32 (fontified nil face font-lock-builtin-face) 32 37 (fontified nil) 37 42 (fontified nil face font-lock-builtin-face) 42 69 (fontified nil) 69 75 (fontified nil face font-lock-builtin-face) 75 84 (fontified nil) 84 89 (fontified nil face font-lock-builtin-face) 89 91 (fontified nil) 91 102 (fontified nil face font-lock-string-face) 102 129 (fontified nil) 129 135 (fontified nil face font-lock-builtin-face) 135 154 (fontified nil) 154 159 (fontified nil face font-lock-builtin-face) 159 167 (fontified nil) 167 215 (fontified nil face font-lock-string-face) 215 219 (fontified nil) 219 222 (fontified nil face font-lock-string-face) 222 244 (fontified nil) 244 247 (fontified nil face font-lock-string-face) 247 269 (fontified nil) 269 272 (fontified nil face font-lock-string-face) 272 302 (fontified nil) 302 305 (fontified nil face font-lock-string-face) 305 335 (fontified nil) 335 338 (fontified nil face font-lock-string-face) 338 361 (fontified nil) 361 372 (fontified nil face font-lock-string-face) 372 373 (fontified nil) 373 379 (fontified nil face font-lock-builtin-face) 379 386 (fontified nil) 386 389 (fontified nil) 389 392 (fontified nil face font-lock-string-face) 392 399 (fontified nil) 399 405 (fontified nil face font-lock-string-face) 405 406 (fontified nil) 406 412 (fontified nil face font-lock-builtin-face) 412 419 (fontified nil) 419 420 (fontified nil rear-nonsticky nil)) . 6307) (undo-tree-id6 . -419) (undo-tree-id7 . 1) (undo-tree-id8 . -420) (undo-tree-id9 . 420) (undo-tree-id10 . -1) (undo-tree-id11 . -420) (undo-tree-id12 . -420) (undo-tree-id13 . -420) (undo-tree-id14 . -420) (undo-tree-id15 . -420) (undo-tree-id16 . -386) (undo-tree-id17 . -420) (undo-tree-id18 . -420) (undo-tree-id19 . -420) (nil fontified t 6686 . 6693) (nil fontified t 6680 . 6686) (nil fontified t 6679 . 6680) (nil fontified t 6668 . 6679) (nil fontified t 6645 . 6668) (nil fontified t 6642 . 6645) (nil fontified t 6612 . 6642) (nil fontified t 6609 . 6612) (nil fontified t 6579 . 6609) (nil fontified t 6576 . 6579) (nil fontified t 6554 . 6576) (nil fontified t 6551 . 6554) (nil fontified t 6529 . 6551) (nil fontified t 6526 . 6529) (nil fontified t 6522 . 6526) (nil fontified t 6474 . 6522) (nil fontified t 6466 . 6474) (nil fontified t 6461 . 6466) (nil fontified t 6442 . 6461) (nil fontified t 6436 . 6442) (nil fontified t 6409 . 6436) (nil fontified t 6398 . 6409) (nil fontified t 6396 . 6398) (nil fontified t 6391 . 6396) (nil fontified t 6382 . 6391) (nil fontified t 6376 . 6382) (nil fontified t 6349 . 6376) (nil fontified t 6344 . 6349) (nil fontified t 6339 . 6344) (nil fontified t 6332 . 6339) (nil fontified t 6329 . 6332) (nil fontified t 6320 . 6329) (nil fontified t 6319 . 6320) (nil fontified t 6308 . 6319) (nil fontified t 6307 . 6308) (nil rear-nonsticky t 6726 . 6727)) (25536 20396 263531 0) 0 nil]) ((6306 . 6307) (6305 . 6306) (t . 0) 6304) nil (25536 20393 278197 0) 0 nil]) ((9347 . 9586) (#("(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )" 0 239 (fontified nil)) . -9347) (9344 . 9346) (#("
+" 0 1 (fontified nil)) . -9344) (9241 . 9345) (#(" " 0 1 (fontified nil)) . 9241) (8968 . 9242) (#("(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(package-selected-packages
+   '(yasnippet-snippets which-key yasnippet cdlatex company use-package evil auctex)))" 0 360 (fontified nil)) . -8968) 6304) nil (25536 20391 446010 0) 0 nil]) ((nil rear-nonsticky nil 6304 . 6305) (nil fontified nil 6246 . 6305) (6246 . 6305)) nil (25536 20391 446011 0) 0 nil]) ((6245 . 6246) 6245) nil (25536 20391 446012 0) 0 nil]) ((nil rear-nonsticky nil 6243 . 6244) (nil fontified nil 4367 . 6244) (4367 . 6244)) nil (25536 20391 446013 0) 0 nil]) ((4366 . 4367) (4365 . 4366) 4364) nil (25536 20391 446015 0) 0 nil]) ((nil rear-nonsticky nil 4364 . 4365) (nil fontified nil 2488 . 4365) (2488 . 4365)) nil (25536 20391 446016 0) 0 nil]) ((2487 . 2488) (2486 . 2487) 2485) nil (25536 20391 446017 0) 0 nil]) ((#(" " 0 1 (fontified t)) . 2356)) nil (25536 20391 446018 0) 0 nil]) ((#(";" 0 1 (fontified t face font-lock-comment-delimiter-face)) . 2356)) nil (25536 20391 446019 0) 0 nil]) ((#(";" 0 1 (fontified t face font-lock-comment-delimiter-face)) . 2356) (undo-tree-id1 . -1) (undo-tree-id2 . -1) (undo-tree-id3 . -1) (undo-tree-id4 . -1) (undo-tree-id5 . -1) (t 25536 19741 0 0)) nil (25536 20391 446026 0) 0 nil]) nil nil (25536 20391 446027 0) 0 nil] #1# 3440 13 nil)
